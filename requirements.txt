@@ -1,0 +1,15 @@
+# Core dependencies for Jupyter and basic scripting
+jupyter
+requests
+# For Data Science and Numerical Computing (Level 5)
+numpy
+pandas
+matplotlib
+seaborn
+# For Web Development (Level 5)
+flask
+fastapi
+# For Testing (Level 5)
+pytest
+# For Web Scraping (Project Ideas)
+beautifulsoup4
