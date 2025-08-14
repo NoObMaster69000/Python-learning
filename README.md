@@ -65,16 +65,14 @@ Organized in **logical progression** — each topic builds on the previous one. 
 
 ---
 
-### 7. **Data Structures: List, Tuple, Set, Dict**
+### 7. **Data Structures**
+> 🚀 **This topic has been expanded into four detailed notebooks!**
+> - **7a. Lists `[]`**: The most common, general-purpose, and mutable collection.
+> - **7b. Tuples `()`**: Immutable collections, used for fixed data.
+> - **7c. Sets `{}`**: For storing unique items and performing mathematical set operations.
+> - **7d. Dictionaries `{}`**: For storing data as key-value pairs.
 
-| Structure | Mutability | Ordered | Syntax | Use Case |
-|-----------|---|---|---|---|
-| **List** `[]` | ✅ Yes | ✅ | `[1,2,3]` | General-purpose collection |
-| **Tuple** `()` | ❌ No | ✅ | `(1,2)` | Fixed data (e.g., coordinates) |
-| **Set** `{}` | ✅ | ❌ | `{1,2,3}` | Unique items, fast lookup |
-| **Dictionary** `{}` | ✅ | ✅ (Python 3.7+) | `{"name": "Ali"}` | Key-value mapping |
-
-> 📌 *Master: list comprehensions, dictionary methods, `.append()`, `.remove()`*
+> 📌 *Master: list comprehensions, dictionary methods, set operations, and when to use each type.*
 
 ---
 
@@ -256,7 +254,16 @@ def timer(func):
 
 ---
 
-### 24. **Virtual Environments & pip**
+### 24. **Packaging a Project**
+- Project structure (`pyproject.toml`, `src/`)
+- Building (`build` package)
+- Uploading (`twine` package)
+
+> 💡 *Use Case: Distribute your code for others to `pip install`*
+
+---
+
+### 25. **Virtual Environments & pip**
 - `python -m venv myenv`
 - `source myenv/bin/activate` (Linux/Mac) or `myenv\Scripts\activate` (Windows)
 - `pip install`, `pip freeze > requirements.txt`
@@ -267,7 +274,7 @@ def timer(func):
 
 ## 🔮 Level 5: Next Steps (After Mastery)
 
-### 25. **Popular Libraries to Explore**
+### 26. **Popular Libraries to Explore**
 
 | Library | Purpose |
 |---|---|
@@ -281,16 +288,18 @@ def timer(func):
 
 ---
 
-### 26. **Best Practices**
+### 27. **Best Practices**
 - PEP 8 (code style)
 - Docstrings: `"""Explain function here"""`
 - Type hints: `def func(x: int) -> str:`
 - Writing clean, readable code
 - Unit testing with `unittest` or `pytest`
 
+> 🚀 **A detailed notebook for this topic, `27_Best_Practices.ipynb`, is available in the `05_Next_Steps` folder!**
+
 ---
 
-### 27. **Project Ideas to Practice**
+### 28. **Project Ideas to Practice**
 1. **To-Do List App** (CLI) → Use lists, files
 2. **Contact Book** → Use dictionaries, JSON
 3. **Calculator** → Functions, error handling
